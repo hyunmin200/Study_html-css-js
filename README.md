@@ -1,2 +1,2 @@
-# Study_html-css-js
-html&amp;css&amp;js study repository
+# my html&css&js study
+
