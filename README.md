@@ -1,2 +1,2 @@
-# my html&css&js study
+# My html&css&js study
 
