@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:url('./images/bg0.jpg') no-repeat left top fixed;
+            background-size:cover;
+            display:flex; /*조건1*/
+            /*justify-content:center;/*조건2*/
+            /*align-items: center;/*조건2*/
+            min-height:100vh;/*조건1*/
+        }
+    </style>
+</head>
+<body id="content">
+		<button onclick="js()">주축 가운데 정렬!</button>
+		<br>
+		<button onclick="as()">교자축 가운데 정렬!</button>
+		<script>
+			let contentEl=document.getElementById("content");
+            function js() {
+                contentEl.style.justifyContent="center";
+            }
+            function as() {
+                contentEl.style.alignItems="center";
+            }
+	    </script>
+</body>
+</html>
