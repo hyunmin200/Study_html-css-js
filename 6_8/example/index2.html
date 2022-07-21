@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:650px;
+            height:150px;
+            background-color: #eee;
+            border:1px solid #222;
+            margin-bottom:20px;
+            display:flex;
+            align-items: center;
+        }
+
+        #box1{
+            align-self: flex-start;
+            background-color: pink;
+            color:black;
+        }
+
+        #box3{
+            align-self:stretch;
+            background-color:lightgreen;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">교차측 시작점에 배치</div>
+        <div class="box">menu2</div>
+        <div class="box" id="box3">교차측 가득차게 배치</div>
+        <div class="box">menu4</div>
+</body>
+</html>
