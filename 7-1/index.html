@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let hh = 0;
+        function ccr() {
+            if (hh == 0) {
+                document.getElementById("heading").style.color = "blue";
+                hh = 1;
+            }
+            else if (hh == 1) {
+                document.getElementById("heading").style.color = "red";
+                hh = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="heading" onclick="ccr()">자바스크립트</h1>
+    <p>위 텍스트를 클릭해 보세요</p>
+</body>
+</html>
